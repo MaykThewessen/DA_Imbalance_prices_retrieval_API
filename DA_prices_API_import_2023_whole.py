@@ -15,7 +15,7 @@ import datetime
 from entsoe import EntsoeRawClient
 from entsoe import EntsoePandasClient
 
-client = EntsoePandasClient(api_key="4a2ed80d-d974-47ef-8d11-778e05f67850")
+client = EntsoePandasClient(api_key="fill-in-your-own")
 
 start = pd.Timestamp('20230101T00', tz='Europe/Brussels')
 end = pd.Timestamp('20231231T23', tz='Europe/Brussels') # '20230101T23'
